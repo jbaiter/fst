@@ -12,7 +12,7 @@ pub use self::error::Error;
 
 mod error;
 
-const STATE_LIMIT: usize = 10_000; // currently at least 20MB >_<
+const STATE_LIMIT: usize = 1_000_000; // currently at least 20MB >_<
 
 /// A Unicode aware Levenshtein automaton for running efficient fuzzy queries.
 ///
